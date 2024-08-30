@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Navbar from '../pages/navbar';
+import Navbar from '../components/navbar';
 import ResumeInfo from '../pages/resume';
 import CoopInfo from '../pages/coop-info';
 import Home from '../pages/home';
@@ -16,7 +16,7 @@ export default function Page() {
       <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
 
       {/* Page Content */}
-      <div className="p-5">
+      <div className="">
         {currentPage === PageStatus.HOME && <Home/>}
         {currentPage === PageStatus.RES && <ResumeInfo />}
         {currentPage === PageStatus.COOP && <CoopInfo />}
