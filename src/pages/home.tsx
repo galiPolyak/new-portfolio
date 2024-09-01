@@ -1,5 +1,10 @@
 'use client';
 
+import { Playfair_Display } from 'next/font/google'
+import { Kumbh_Sans } from 'next/font/google'
+
+const playfairDisplay = Playfair_Display({ subsets: ['latin'], weight: '400' }) // Changed weight to 400 for light font
+const kumbhSans = Kumbh_Sans({ subsets: ['latin'] })
 import BubbleAnimation from '../components/bubble-anim'; // Ensure this path is correct
 
 const Home = () => {
@@ -8,16 +13,31 @@ const Home = () => {
       {/* Bubble Animation Canvas */}
       <BubbleAnimation />
 
-      {/* Page Content */}
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <h2 className='flex justify-center'>Home Info Page</h2>
-        <p className='flex justify-center'>
-          This is where the Home information will be displayed. You can include details about your co-op experiences, roles, and accomplishments.
-        </p>
+      {/* Main Content */}
+      <canvas id="myCanvas" className="w-full h-full"></canvas>
+        <div
+          id="main__content"
+          className={`absolute top-1/4 left-1/4 right-1/4 z-10 ${playfairDisplay.className}`}
+        >
+          <h1
+            className={`text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199] mb-4`}
+          >
+            HELLO, I'M GALI.
+          </h1>
+          <h2
+            className={`text-4xl font-light bg-clip-text text-transparent bg-black mb-6`}
+          >
+            I'm a Bachelor of Computing Undergrad @ the University of Guelph!
+          </h2>
+          <button
+            id="main__btn"
+            className={`text-lg bg-gradient-to-t from-[#ffb6ad] to-[#fa90bb] px-8 py-4 rounded-md text-white cursor-pointer transition-all outline-none relative ${kumbhSans.className}`}
+            >
+            <a className="text-2xl text-white no-underline">Contact me!</a>
+          </button>
+        </div>
       </div>
-    </div>
   );
 };
 
 export default Home;
-

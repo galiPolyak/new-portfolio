@@ -18,8 +18,8 @@ const Navbar = ({ currentPage, setCurrentPage }: NavbarProps) => {
   return (
     <nav className="bg-gradient-navbar h-32 flex items-center justify-center sticky top-0 z-50"> {/* Changed gradient direction */}
       <div className="container mx-auto flex justify-between items-center h-full px-6">
-        <div className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-t from-pink-900 to-purple-900"> {/* Changed text size */}
-          My Portfolio
+      <div id="navbar__text" className="text-4xl text-transparent bg-clip-text text-white">
+          Gali's Website
         </div>
         <div className="hidden lg:flex space-x-12">
           <button

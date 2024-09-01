@@ -95,7 +95,7 @@ const BubbleAnimation = () => {
       y: undefined as number | undefined
     };
 
-    let gravity = 0.3;
+    let gravity = 0.6;
     let yFriction = 0.75;
     let xFriction = 0.75;
 

@@ -1,12 +1,22 @@
 'use client';
 
+import React from 'react';
+
 const ResumeInfo = () => {
   return (
-    <div>
-      <h2 className='flex justify-center'>Resume Page</h2>
-      <p className='flex justify-center'>
-        This is where the Resume content will go. You can include details about your work experience, education, skills, and more.
-      </p>
+    <div className="h-screen flex flex-col">
+      <div className="flex-grow flex justify-center items-center">
+        <iframe 
+          src="/res2025.pdf"  // Use root-relative path
+          width="100%" 
+          height="100%" 
+          style={{border: 'none'}}
+          title="Resume"
+        >
+          This browser does not support PDFs. Please download the PDF to view it: 
+          <a href="/res2025.pdf">Download PDF</a>.
+        </iframe>
+      </div>
     </div>
   );
 };
