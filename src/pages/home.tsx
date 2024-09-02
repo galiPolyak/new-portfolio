@@ -30,11 +30,11 @@ const Home = () => {
             I'm a Bachelor of Computing Undergrad @ the University of Guelph!
           </h2>
           <button
-            id="main__btn"
-            className={`text-lg bg-gradient-to-t from-[#ffb6ad] to-[#fa90bb] px-8 py-4 rounded-md text-white cursor-pointer transition-all outline-none relative ${kumbhSans.className}`}
-            >
-            <a className="text-2xl text-white no-underline">Contact me!</a>
-          </button>
+          id="main__btn"
+          className={`text-lg bg-gradient-to-t from-[#ffb6ad] to-[#fa90bb] px-8 py-4 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
+        >
+          <a className="text-2xl text-white no-underline relative z-10">Contact me!</a>
+        </button>
         </div>
       </div>
   );

@@ -45,3 +45,40 @@ body {
   }
 }
 
+#main__btn {
+  font-size: 1rem;
+  background-image: linear-gradient(to top, #ffb6ad 0%, #fa90bb 100%);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  overflow: hidden;
+}
+
+#main__btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main__btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(149, 4, 118);
+  transition: all 0.35s;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+#main__btn:hover:after {
+  width: 100%;
+}
