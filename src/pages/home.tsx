@@ -21,6 +21,7 @@ const Home = () => {
         >
           <h1
             className={`text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199] mb-4`}
+            style={{ lineHeight: '1.2' }}
           >
             HELLO, I'M GALI.
           </h1>
