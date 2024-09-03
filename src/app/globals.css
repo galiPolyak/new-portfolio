@@ -40,8 +40,11 @@ body {
     font-size: 1.5rem;
   }
 
-  button {
-    font-size: 1rem;
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Space between button and scroll icon */
   }
 }
 
@@ -81,4 +84,8 @@ body {
 
 #main__btn:hover:after {
   width: 100%;
+}
+
+.scroll-icon img:hover {
+  filter: brightness(15); /* Adjust the brightness value to change the color on hover */
 }
