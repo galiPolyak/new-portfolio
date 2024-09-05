@@ -3,8 +3,10 @@
 import { useState } from 'react';
 import Navbar from '../components/navbar';
 import ResumeInfo from '../pages/resume';
-import CoopInfo from '../pages/coop-info';
-import Home from '../pages/home';
+import CoopInfo from '../pages/coop/coop-info';
+import Home from '../pages/home/home';
+import Summer24 from '../pages/coop/summer-24';
+import Fall24 from '../pages/coop/fall-24';
 import { PageStatus } from './constant';
 
 export default function Page() {
@@ -19,7 +21,10 @@ export default function Page() {
       <div className="">
         {currentPage === PageStatus.HOME && <Home/>}
         {currentPage === PageStatus.RES && <ResumeInfo />}
-        {currentPage === PageStatus.COOP && <CoopInfo />}
+        {currentPage === PageStatus.COOP && <CoopInfo setCurrentPage={setCurrentPage} />}
+      {/* Render other components based on `currentPage` */}
+        {currentPage === PageStatus.S24 && <Summer24 />}
+        {currentPage === PageStatus.F24 && <Fall24 />}
       </div>
     </div>
   );

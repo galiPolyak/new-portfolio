@@ -35,7 +35,7 @@ const Navbar = ({ currentPage, setCurrentPage }: NavbarProps) => {
           <button
             onClick={() => setCurrentPage(PageStatus.COOP)}
             className={`text-3xl text-white hover:text-[rgb(149,4,118)] transition-colors duration-300 ${currentPage === PageStatus.COOP ? 'text-pink-600' : ''}`}>
-            Co-op
+            Co-op/Intern Blog
           </button>
           <a
             href="https://github.com/galiPolyak/"
