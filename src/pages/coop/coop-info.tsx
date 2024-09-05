@@ -24,7 +24,7 @@ const CoopInfo = ({ setCurrentPage }: CoopInfoProps) => {
           className={`text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199]`}
           style={{ lineHeight: '1.2' }}
         >
-          My Co-op Experiences
+          My Co-op Journal
         </h1>
         <h2
           className={`text-4xl font-light bg-clip-text text-transparent bg-black mt-6 mb-6`}

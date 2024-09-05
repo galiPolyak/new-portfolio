@@ -46,6 +46,12 @@ body {
     align-items: center;
     gap: 1rem; /* Space between button and scroll icon */
   }
+
+  /* Adjust content area when vertical strip is hidden */
+  #coop_content {
+    margin-left: 20px; 
+    margin-right: 20px; 
+  }
 }
 
 #main__btn {
