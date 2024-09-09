@@ -15,7 +15,7 @@ const IntroductionS24 = () => {
           Introduction
         </h2>
         <p className={`coop__paragraph text-3xl text-center ${playfairDisplay.className} mt-4 leading-relaxed max-w-7xl p-4`}>
-          Hi there, from May '24 to Aug '24 I was working as a Software Development Intern for Bell Media. Bell is a leading Canadian telecommunications company that specializes in providing advanced communications services, including wireless, internet, and television. The company plays a significant role in the field of computing science, particularly in areas such as network engineering, cloud computing, cybersecurity, and the development of digital platforms. Bell is known for its innovation in building high-speed networks and digital solutions that connect millions of people across Canada.
+          Hi there, from May &#39;24 to Aug &#39;24 I was working as a Software Development Intern for Bell Media. Bell is a leading Canadian telecommunications company that specializes in providing advanced communications services, including wireless, internet, and television. The company plays a significant role in the field of computing science, particularly in areas such as network engineering, cloud computing, cybersecurity, and the development of digital platforms. Bell is known for its innovation in building high-speed networks and digital solutions that connect millions of people across Canada.
         </p>
     </div>
   );

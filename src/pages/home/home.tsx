@@ -41,12 +41,12 @@ const Home = () => {
           className={`text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199] mb-4`}
           style={{ lineHeight: '1.2' }}
         >
-          HELLO, I'M GALI.
+          HELLO, I&#39;M GALI.
         </h1>
         <h2
           className={`text-4xl font-light bg-clip-text text-transparent bg-black mb-6`}
         >
-          I'm a Bachelor of Computing Undergrad @ the University of Guelph!
+          I&#39;m a Bachelor of Computing Undergrad @ the University of Guelph!
         </h2>
         <div className="button-container flex items-center space-x-4">
           <button

@@ -38,14 +38,14 @@ const CoopInfo = ({ setCurrentPage }: CoopInfoProps) => {
             className={`text-lg bg-gradient-to-t from-[#f9a8c8] to-[#c9a1fd] px-8 py-4 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
             onClick={() => setCurrentPage(PageStatus.S24)} // Update page status to Summer 24'
           >
-            <a className="text-2xl text-white no-underline relative z-10">Summer 24'</a>
+            <a className="text-2xl text-white no-underline relative z-10">Summer 24&#39;</a>
           </button>
           <button
             id="main__btn"
             className={`text-lg bg-gradient-to-t from-[#f9a8c8] to-[#c9a1fd] px-8 py-4 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
             onClick={() => setCurrentPage(PageStatus.F24)} // Update page status to Fall 24'
           >
-            <a className="text-2xl text-white no-underline relative z-10">Fall 24'</a>
+            <a className="text-2xl text-white no-underline relative z-10">Fall 24&#39;</a>
           </button>
         </div>
       </div>

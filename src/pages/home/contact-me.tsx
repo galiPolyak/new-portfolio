@@ -16,7 +16,7 @@ const ContactMe = () => {
         Contact Me
       </h1>
       <p className={`text-lg mb-4 ${kumbhSans.className}`}>
-        I'd love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out.
+        I&#39;d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out.
       </p>
       <form className={`space-y-4 ${kumbhSans.className} w-full max-w-lg`}>
         <div>

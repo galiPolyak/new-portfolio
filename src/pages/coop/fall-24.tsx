@@ -17,7 +17,7 @@ const Fall24 = () => {
           className={`text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199]`}
           style={{ lineHeight: '1.2' }}
         >
-          Fall 24' Co-op Experience
+          Fall 24&#39; Co-op Experience
         </h1>
         <p
           className={`text-lg text-black ${kumbhSans.className}`}
