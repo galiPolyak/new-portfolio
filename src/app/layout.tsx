@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <Script 
           src="https://use.fontawesome.com/6fae6375b5.js" 
           strategy="afterInteractive" // Loads the script asynchronously after the page is interactive
