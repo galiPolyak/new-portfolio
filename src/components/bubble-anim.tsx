@@ -117,7 +117,7 @@ const BubbleAnimation = () => {
     function init() {
       bubbleArray = [];
       for (let i = 0; i < 130; i++) {
-        let radius = randomIntInRange(40, 130);
+        let radius = randomIntInRange(30, 100);
         let x = randomIntInRange(radius, (canvas as any).width - radius);
         let y = randomIntInRange(0, (canvas as any).height - radius);
         let velX = randomIntInRange(-4, 4);

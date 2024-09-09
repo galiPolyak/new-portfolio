@@ -12,15 +12,15 @@ const ContactMe = () => {
       className="w-full h-[calc(100vh-8rem)] flex flex-col justify-center items-center p-8" 
       style={{ padding: '4rem' }}
     >
-      <h1 className={`text-5xl font-bold mb-4 ${playfairDisplay.className}`}>
+      <h1 className={`text-3xl font-bold mb-4 ${playfairDisplay.className}`}>
         Contact Me
       </h1>
-      <p className={`text-lg mb-4 ${kumbhSans.className}`}>
+      <p className={`text-1xl mb-4 ${kumbhSans.className}`}>
         I&#39;d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out.
       </p>
       <form className={`space-y-4 ${kumbhSans.className} w-full max-w-lg`}>
         <div>
-          <label className="block text-lg mb-1" htmlFor="name">Name</label>
+          <label className="block text-1xl mb-1" htmlFor="name">Name</label>
           <input 
             type="text" 
             id="name" 
@@ -29,7 +29,7 @@ const ContactMe = () => {
           />
         </div>
         <div>
-          <label className="block text-lg mb-1" htmlFor="email">Email</label>
+          <label className="block text-1xl mb-1" htmlFor="email">Email</label>
           <input 
             type="email" 
             id="email" 
@@ -38,7 +38,7 @@ const ContactMe = () => {
           />
         </div>
         <div>
-          <label className="block text-lg mb-1" htmlFor="message">Message</label>
+          <label className="block text-1xl mb-1" htmlFor="message">Message</label>
           <textarea 
             id="message" 
             className="w-full border border-gray-300 p-2 rounded-md"

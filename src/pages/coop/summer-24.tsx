@@ -27,41 +27,41 @@ const Summer24 = () => {
   };
 
   return (
-    <div style={{ position: 'relative', height: 'calc(100vh - 8rem)', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', height: 'calc(100vh - 6rem)', overflow: 'hidden' }}>
       {/* Toggle button to reveal the strip when hidden */}
 
       {/* Vertical strip with buttons */}
         <div
-          className="vertical-strip fixed top--8rem left-0 h-[calc(100vh-8rem)] w-60 bg-[#955988] flex flex-col space-y-8 p-10 z-10"
+          className="vertical-strip fixed top--6rem left-0 h-[calc(100vh-6rem)] w-45 bg-[#955988] flex flex-col space-y-6 p-10 z-10"
         >
 
           <button
             onClick={() => scrollToSection(introRef)}
-            className="text-lg bg-white text-black hover:text-white hover:bg-[#950476] px-6 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Introduction
           </button>
           <button
             onClick={() => scrollToSection(aboutRef)}
-            className="text-lg bg-white text-black hover:text-white hover:bg-[#950476] px-6 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             About Bell
           </button>
           <button
             onClick={() => scrollToSection(jdescRef)}
-            className="text-lg bg-white text-black hover:text-white hover:bg-[#950476] px-6 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Job Description
           </button>
           <button
             onClick={() => scrollToSection(goalsRef)}
-            className="text-lg bg-white text-black hover:text-white hover:bg-[#950476] px-6 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Learning Goals
           </button>
           <button
             onClick={() => scrollToSection(conclusionRef)}
-            className="text-lg bg-white text-black hover:text-white hover:bg-[#950476] px-6 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Conclusion
           </button>
@@ -70,7 +70,7 @@ const Summer24 = () => {
       {/* Main content */}
       <div
         id="coop_content"
-        className={`absolute top-0 left-0 right-0 bottom-0 overflow-auto ${kumbhSans.className}`}
+        className={`absolute top-0 left-40 right-0 bottom-0 overflow-auto ${kumbhSans.className}`}
       >
         {/* Sections */}
         <div ref={introRef}><IntroductionS24/></div>
