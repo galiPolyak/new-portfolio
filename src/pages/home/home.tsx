@@ -64,7 +64,7 @@ const Home = () => {
       </div>
 
       {/* Projects Section */}
-      <div ref={projectsRef} className="mt-5">
+      <div ref={projectsRef} className="">
         <Projects />
       </div>
 

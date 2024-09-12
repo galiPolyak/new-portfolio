@@ -8,7 +8,7 @@ const playfairDisplay = Playfair_Display({ subsets: ['latin'], weight: '400' });
 const IntroductionS24 = () => {
   return (
     <div className="coop__text w-full h-full flex flex-col items-center justify-start px-4 md:px-20">
-        <h1 className={`coop__title mt-10 text-6xl text-[#004B87] ${playfairDisplay.className}`} style={{ lineHeight: '1.2' }}>
+        <h1 className={`coop__title mt-10 text-6xl text-center text-[#004B87] ${playfairDisplay.className}`} style={{ lineHeight: '1.2' }}>
           Summer 2024 Blog: Bell Canada
         </h1>
         <h2 className={`coop_heading text-3xl font-bold text-[#000000] mt-8 ${playfairDisplay.className}`}>
@@ -22,13 +22,13 @@ const IntroductionS24 = () => {
         </p>
 
         {/* Images section */}
-        <div className="flex gap-4 mt-8">
+        <div className="s24Images flex gap-4 mt-8">
           <img src="/s24CoopImgs/bell-building.jpeg" alt="bellBuildingImg"className="w-[16rem] h-auto" />
           <img src="/s24CoopImgs/bell-interior.jpeg" alt="bellInteriorImg" className="w-[16rem] h-auto" />
         </div>
 
         {/* Horizontal line */}
-        <hr className="w-full border-t-2 border-gray-300 mt-20" />
+        <hr className="w-full border-t-2 border-gray-300 mt-20 mb-10" />
     </div>
   );
 };

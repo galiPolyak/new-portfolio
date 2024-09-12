@@ -8,7 +8,7 @@ const playfairDisplay = Playfair_Display({ subsets: ['latin'], weight: '400' });
 const JdescS24 = () => {
   return (
     <div className="coop__text w-full h-full flex flex-col items-center justify-start px-4 md:px-20">
-        <h2 className={`coop_heading text-3xl font-bold text-[#000000] mt-10 ${playfairDisplay.className}`}>
+        <h2 className={`coop_heading text-3xl font-bold text-[#000000] ${playfairDisplay.className}`}>
           Job Description
         </h2>
         <p className={`coop__paragraph text-1xl text-center ${playfairDisplay.className} mt-4 leading-relaxed max-w-7xl p-4`}>
@@ -21,13 +21,13 @@ const JdescS24 = () => {
         Overall, while my classroom learning was helpful, the practical experience of working with SQL Server, AWS, and Postgres, along with coding in Go within a mono-repo, was instrumental in my growth. This role not only sharpened my technical abilities but also deepened my appreciation for the tools and workflows commonly used in the industry.</p>
     
         {/* Images section */}
-        <div className="flex gap-8 mt-8">
+        <div className="s24Images flex gap-8 mt-8">
           <img src="/s24CoopImgs/aws.jpeg" alt="awsImg" className="w-[18rem] h-auto" />
           <img src="/s24CoopImgs/datapipeline.webp" alt="dataPipelineImg" className="w-[18rem] h-auto" />
         </div>
 
         {/* Horizontal line */}
-        <hr className="w-full border-t-2 border-gray-300 mt-20" />
+        <hr className="w-full border-t-2 border-gray-300 mt-20 mb-10" />
 
     </div>
   );

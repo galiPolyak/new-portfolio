@@ -51,6 +51,16 @@ body {
   #coop_content {
     margin-left: 20px; 
     margin-right: 20px; 
+    left: 0rem;
+  }
+
+  .vertical-strip {
+    display: none; /* Hide the vertical strip */
+  }
+
+  .s24Images {
+    flex-direction: column; /* Stack images vertically */
+    gap: 1rem; /* Optional: add some space between the images */
   }
 }
 
