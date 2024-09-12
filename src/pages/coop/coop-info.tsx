@@ -14,20 +14,20 @@ interface CoopInfoProps {
 
 const CoopInfo = ({ setCurrentPage }: CoopInfoProps) => {
   return (
-    <div style={{ position: 'relative', height: 'calc(100vh - 8rem)', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', height: 'calc(100vh - 5rem)', overflow: 'hidden' }}>
       <canvas id="myCanvas" className="w-full h-full"></canvas>
       <div
         id="main__content"
         className={`absolute top-1/4 left-1/4 right-1/4 ${playfairDisplay.className}`}
       >
         <h1
-          className={`text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199]`}
+          className={`text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199]`}
           style={{ lineHeight: '1.2' }}
         >
           My Co-op Journal
         </h1>
         <h2
-          className={`text-3xl font-light bg-clip-text text-transparent bg-black mt-6 mb-6`}
+          className={`text-2xl font-light bg-clip-text text-transparent bg-black mt-6 mb-6`}
           style={{ lineHeight: '1.2' }}
         >
           Blog about My Co-op/Internship!
@@ -35,17 +35,17 @@ const CoopInfo = ({ setCurrentPage }: CoopInfoProps) => {
         <div className="flex space-x-4 mt-8">
           <button
             id="main__btn"
-            className={`text-lg bg-gradient-to-t from-[#f9a8c8] to-[#c9a1fd] px-7 py-3 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
+            className={`text-lg bg-gradient-to-t from-[#f9a8c8] to-[#c9a1fd] px-6 py-3 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
             onClick={() => setCurrentPage(PageStatus.S24)} // Update page status to Summer 24'
           >
-            <a className="text-1xl text-white no-underline relative z-10">Summer 24&#39;</a>
+            <a className="text-[1rem] text-white no-underline relative z-10">Summer 24&#39;</a>
           </button>
           <button
             id="main__btn"
-            className={`text-lg bg-gradient-to-t from-[#f9a8c8] to-[#c9a1fd] px-7 py-3 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
+            className={`text-lg bg-gradient-to-t from-[#f9a8c8] to-[#c9a1fd] px-6 py-3 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
             onClick={() => setCurrentPage(PageStatus.F24)} // Update page status to Fall 24'
           >
-            <a className="text-1xl text-white no-underline relative z-10">Fall 24&#39;</a>
+            <a className="text-[1rem] text-white no-underline relative z-10">Fall 24&#39;</a>
           </button>
         </div>
       </div>

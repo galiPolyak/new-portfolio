@@ -9,7 +9,7 @@ const kumbhSans = Kumbh_Sans({ subsets: ['latin'] })
 const ContactMe = () => {
   return (
     <div 
-      className="w-full h-[calc(100vh-8rem)] flex flex-col justify-center items-center p-8" 
+      className="w-full h-[calc(100vh-5rem)] flex flex-col justify-center items-center p-8" 
       style={{ padding: '4rem' }}
     >
       <h1 className={`text-3xl font-bold mb-4 ${playfairDisplay.className}`}>

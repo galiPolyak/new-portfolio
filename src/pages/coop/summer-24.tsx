@@ -27,12 +27,12 @@ const Summer24 = () => {
   };
 
   return (
-    <div style={{ position: 'relative', height: 'calc(100vh - 6rem)', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', height: 'calc(100vh - 5rem)', overflow: 'hidden' }}>
       {/* Toggle button to reveal the strip when hidden */}
 
       {/* Vertical strip with buttons */}
         <div
-          className="vertical-strip fixed top--6rem left-0 h-[calc(100vh-6rem)] w-45 bg-[#955988] flex flex-col space-y-6 p-10 z-10"
+          className="vertical-strip fixed top--5rem left-0 h-[calc(100vh-5rem)] w-45 bg-[#955988] flex flex-col space-y-6 p-10 z-10"
         >
 
           <button

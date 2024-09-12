@@ -14,15 +14,15 @@ const Fall24 = () => {
         className={`absolute top-1/4 left-1/4 right-1/4 ${playfairDisplay.className}`}
       >
         <h1
-          className={`text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199]`}
+          className={`text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#ee4086] to-[#ffb199]`}
           style={{ lineHeight: '1.2' }}
         >
           Fall 24&#39; Co-op Experience
         </h1>
         <p
-          className={`text-lg text-black ${kumbhSans.className}`}
+          className={`text-2xl text-black ${kumbhSans.className}`}
         >
-          TBD.
+          To be determined...
         </p>
       </div>
     </div>
