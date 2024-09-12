@@ -32,36 +32,36 @@ const Summer24 = () => {
 
       {/* Vertical strip with buttons */}
         <div
-          className="vertical-strip fixed top--5rem left-0 h-[calc(100vh-5rem)] w-45 bg-[#955988] flex flex-col space-y-6 p-10 z-10"
+          className="vertical-strip relative top--5rem left-0 h-[calc(100vh-5rem)] w-40 bg-[#955988] flex flex-col space-y-6 p-5 z-10"
         >
 
           <button
             onClick={() => scrollToSection(introRef)}
-            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-[1rem] bg-white text-black hover:text-white hover:bg-gradient-navbar px-4 py-2 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Introduction
           </button>
           <button
             onClick={() => scrollToSection(aboutRef)}
-            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-[1rem] bg-white text-black hover:text-white hover:bg-gradient-navbar px-4 py-2 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             About Bell
           </button>
           <button
             onClick={() => scrollToSection(jdescRef)}
-            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-[1rem] bg-white text-black hover:text-white hover:bg-gradient-navbar px-4 py-2 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Job Description
           </button>
           <button
             onClick={() => scrollToSection(goalsRef)}
-            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-[1rem] bg-white text-black hover:text-white hover:bg-gradient-navbar px-4 py-2 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Learning Goals
           </button>
           <button
             onClick={() => scrollToSection(conclusionRef)}
-            className="text-1xl bg-white text-black hover:text-white hover:bg-[#950476] px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
+            className="text-[1rem] bg-white text-black hover:text-white hover:bg-gradient-navbar px-4 py-4 rounded-md cursor-pointer transition-all duration-300 ease-in-out"
           >
             Conclusion
           </button>
