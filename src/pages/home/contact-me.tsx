@@ -9,8 +9,7 @@ const kumbhSans = Kumbh_Sans({ subsets: ['latin'] })
 const ContactMe = () => {
   return (
     <div 
-      className="w-full h-[calc(100vh-5rem)] flex flex-col justify-center items-center p-8" 
-      style={{ padding: '4rem' }}
+      className="w-full h-full flex flex-col justify-center items-center" 
     >
       <h1 className={`text-3xl font-bold mb-4 ${playfairDisplay.className}`}>
         Contact Me
@@ -53,6 +52,9 @@ const ContactMe = () => {
           <a className="text-1xl text-white no-underline relative z-10">Send Message</a>
         </button>
       </form>
+
+      {/* Horizontal line */}
+      <hr className="w-[calc(100vw-20rem)] border-t-2 border-gray-300 mt-20 mb-10" />
     </div>
   );
 };

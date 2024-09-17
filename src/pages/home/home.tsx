@@ -3,7 +3,7 @@
 import { Playfair_Display } from 'next/font/google'
 import { Kumbh_Sans } from 'next/font/google'
 import BubbleAnimation from '../../components/bubble-anim';
-import Projects from './projects/projects'; 
+import Projects from './projects'; 
 import ContactMe from './contact-me'; 
 import { useRef } from 'react';
 
