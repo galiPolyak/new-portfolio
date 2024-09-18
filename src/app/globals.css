@@ -23,6 +23,15 @@ body {
 
 }
 
+form > div {
+  @apply flex flex-col gap-2;
+}
+
+input,
+textarea {
+  @apply shadow-md px-6 py-2 border border-slate-300;
+}
+
 @media (max-width: 1000px) {
   #main__content {
     left: calc(100% / 6); /* 1/6 of the container width from the left */
