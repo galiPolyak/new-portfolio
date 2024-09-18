@@ -46,7 +46,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={handleSubmit}
-        className="w-3/4 py-4 mt-4 border-t flex flex-col gap-5"
+        className="w-[60%] py-4 mt-4 border-t flex flex-col gap-5"
       >
         <div>
           <label htmlFor="fullname">Full Name</label>
@@ -84,7 +84,7 @@ export default function ContactForm() {
         <button
             id="main__btn"
             type = "submit"
-            className={`w-1/4 text-lg bg-gradient-to-t from-[#ffb6ad] to-[#fa90bb] px-5 py-2 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
+            className={`w-[8rem] text-lg bg-gradient-to-t from-[#ffb6ad] to-[#fa90bb] px-5 py-2 rounded-md text-white cursor-pointer relative overflow-hidden transition-all duration-300 ease-in-out ${kumbhSans.className}`}
           >
             <a className="text-1xl text-white no-underline relative z-10">Send!</a>
           </button>
