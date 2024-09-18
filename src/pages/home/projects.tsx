@@ -52,7 +52,7 @@ const Projects = () => {
         ))}
       </div>
       {/* Horizontal line */}
-      <hr className="w-[calc(100vw-20rem)] border-t-2 border-gray-300 mt-[6rem]" />
+      <hr className="w-[80%] border-t-2 border-gray-300 mt-[6rem]" />
     </section>
   );
 };
