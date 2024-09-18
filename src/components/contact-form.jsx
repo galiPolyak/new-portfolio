@@ -92,16 +92,17 @@ export default function ContactForm() {
 
       <div className="bg-slate-100 flex flex-col">
         {error &&
-          error.map((e) => (
+            error.map((e, index) => (
             <div
-              className={`${
+                key={index}  // Adding key prop here
+                className={`${
                 success ? "text-[0.8rem] text-green-800" : "text-[0.8rem] text-red-600"
-              } px-5 py-2`}
+                } px-5 py-2`}
             >
-              {e}
+                {e}
             </div>
-          ))}
-      </div>
+            ))}
+        </div>
     </>
   );
 }
