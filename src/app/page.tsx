@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Navbar from '../components/navbar';
-import ResumeInfo from '../pages/resume';
+import ResumeInfo from '../pages/resume/resume';
 import CoopInfo from '../pages/coop/coop-info';
 import Home from '../pages/home/home';
 import Summer24 from '../pages/coop/summer-24';

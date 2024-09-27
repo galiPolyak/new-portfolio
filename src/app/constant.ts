@@ -23,6 +23,13 @@ export const projects = [
     githubUrl: "https://github.com/galiPolyak/MancalaGame",
   },
   {
+    title: 'Billiard Game',
+    type: 'Personal Project',
+    description: 'This full-stack pool game combines a C-based physics engine with Python server-side scripting and SQLite3 database storage, providing an immersive and interactive gaming experience. (Apr 2024)',
+    imageUrl: '/pythonImg.png',
+    githubUrl: "https://github.com/galiPolyak/Pool-Game",
+  },
+  {
     title: 'List Tool Efficiency',
     type: 'Academic Project',
     description: 'Explores the real-world performance of different data structures. Compares them by processing genomic FASTA data, measuring execution time and memory efficiency. (Oct 2023)',

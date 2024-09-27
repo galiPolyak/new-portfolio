@@ -1,6 +1,6 @@
 import React from 'react';
 import { Playfair_Display, Kumbh_Sans } from 'next/font/google';
-import { FaGithub } from 'react-icons/fa'; // Make sure react-icons is installed
+import { FaGithub } from 'react-icons/fa'; // Ensure react-icons is installed
 import { projects } from '../../app/constant'; // Adjust the import path if needed
 
 const playfairDisplay = Playfair_Display({ subsets: ['latin'], weight: '400' });
@@ -15,11 +15,11 @@ const Projects = () => {
       >
         PERSONAL PROJECTS
       </h2>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="relative w-80 h-[25rem] transform transition-transform duration-300 ease-in-out hover:scale-105 outline-none overflow-hidden" // Ensure proper overflow handling
+            className="relative w-80 h-[25rem] transform transition-transform duration-300 ease-in-out hover:scale-105 outline-none overflow-hidden"
           >
             {/* Container for the image and GitHub icon */}
             <div
