@@ -41,7 +41,7 @@ const Projects = () => {
             </div>
             
             {/* Project Description */}
-            <div className="description__box bg-white p-4 absolute bottom-0 left-0 w-full h-[11rem] flex flex-col justify-between">
+            <div className="description__box bg-white p-4 absolute bottom-0 left-0 w-full h-[12rem] flex flex-col">
               <div>
                 <h4 className={`${playfairDisplay.className} text-lg`}>{project.title}</h4>
                 <p className="text-[0.8rem] text-gray-500 my-1">{project.type}</p>
