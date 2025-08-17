@@ -7,6 +7,7 @@ import ContactForm from "../../components/contact-form"
 const playfairDisplay = Playfair_Display({ subsets: ['latin'], weight: '400' })
 const kumbhSans = Kumbh_Sans({ subsets: ['latin'] })
 
+
 const ContactMe = () => {
   return (
     <div 
